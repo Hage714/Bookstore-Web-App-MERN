@@ -22,7 +22,7 @@ const { connect_database } = require("./db/connect");
 connect_database();
 
 // Authenticate Middleware
-const { verifyToken } = require("./middleware/Authenticate");
+const { verifyToken } = require("./middleware/authenticate");
 
 // Routes
 const authRoutes = require("./routes/auth");
